@@ -9,5 +9,5 @@ eureka:
   client:
     service-url:
       defaultZone: https:/eureka.sancode.com.br/eureka
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  #instance:
+  #  instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
