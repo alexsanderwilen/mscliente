@@ -10,6 +10,6 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: https://eurekaserver-production.up.railway.app/erureka/
+      defaultZone: https://railway:8761/erureka/
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
